@@ -1,0 +1,407 @@
+xrun(64): 20.11-a001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.11-a001: Started on May 27, 2022 at 10:23:16 MST
+xrun
+	-f run.f
+		-64
+		-uvmhome /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		top.sv
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_LOW
+	-gui
+	-access +rwc
+	-licqueue
+	-noievlic
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uvm_pkg:sv <0x39566a25>
+			streams:   6, words:  3460
+		worklib.uvm_pkg:sv <0x11e6df11>
+			streams:   6, words:  3120
+		worklib.uvm_pkg:sv <0x0d9876d0>
+			streams:   5, words:  2530
+		worklib.uvm_pkg:sv <0x558d4fe7>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x0003f431>
+			streams:   8, words:  2774
+		worklib.uvm_pkg:sv <0x7771721d>
+			streams:  21, words: 50316
+		worklib.uvm_pkg:sv <0x5c73481f>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x671b2771>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x5d1378b3>
+			streams:  24, words: 20005
+		worklib.uvm_pkg:sv <0x3e5559f3>
+			streams:  24, words: 19057
+		worklib.uvm_pkg:sv <0x03d4d5e8>
+			streams:  20, words: 18548
+		worklib.uvm_pkg:sv <0x67676bf3>
+			streams:  11, words:  4487
+		worklib.uvm_pkg:sv <0x50cab37c>
+			streams:  23, words: 32521
+		worklib.uvm_pkg:sv <0x3a6093ad>
+			streams:   7, words:  2431
+		worklib.uvm_pkg:sv <0x2df0fc92>
+			streams:  12, words: 16092
+		worklib.uvm_pkg:sv <0x5ef3487d>
+			streams:  23, words: 24178
+		worklib.uvm_pkg:sv <0x42ab0027>
+			streams:  22, words: 51194
+		worklib.uvm_pkg:sv <0x69c7220d>
+			streams:  25, words: 32248
+		worklib.uvm_pkg:sv <0x7bd20cef>
+			streams:  24, words: 46655
+		worklib.uvm_pkg:sv <0x3f46da7c>
+			streams:  25, words: 35031
+		worklib.uvm_pkg:sv <0x779a0b6d>
+			streams:  23, words: 52165
+		worklib.uvm_pkg:sv <0x4a9a55e2>
+			streams:  25, words: 37109
+		worklib.uvm_pkg:sv <0x7b2674b4>
+			streams:  23, words: 57796
+		worklib.uvm_pkg:sv <0x78b4ac8e>
+			streams:  25, words: 41735
+		worklib.uvm_pkg:sv <0x37305070>
+			streams:  23, words: 50753
+		worklib.uvm_pkg:sv <0x078c87a3>
+			streams:  23, words: 53731
+		worklib.uvm_pkg:sv <0x7be42836>
+			streams:  25, words: 34315
+		worklib.uvm_pkg:sv <0x14dc0cfa>
+			streams:  23, words: 50381
+		worklib.uvm_pkg:sv <0x2e2a5cdb>
+			streams:  25, words: 77257
+		worklib.uvm_pkg:sv <0x3bc662d6>
+			streams:  53, words: 73144
+		worklib.cdns_uvm_pkg:sv <0x04afe3a8>
+			streams:  26, words: 34197
+		worklib.cdns_uvm_pkg:sv <0x10a67d20>
+			streams:   8, words:  4031
+		worklib.cdns_uvm_pkg:sv <0x10cde241>
+			streams:  10, words:  8705
+		worklib.uvm_pkg:sv <0x40fea73a>
+			streams:  20, words: 13028
+		worklib.uvm_pkg:sv <0x6299d6ec>
+			streams:  20, words: 13412
+		worklib.uvm_pkg:sv <0x48f2bd77>
+			streams:  20, words: 13028
+		worklib.uvm_pkg:sv <0x078af2c9>
+			streams:  20, words: 13028
+		worklib.top:sv <0x4401ea11>
+			streams:  22, words: 15999
+		worklib.uvm_pkg:sv <0x2939ccd7>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x5919c2f6>
+			streams:  23, words: 22457
+		worklib.uvm_pkg:sv <0x144bf17e>
+			streams:  21, words: 19261
+		worklib.uvm_pkg:sv <0x6b5c76b6>
+			streams:  21, words: 17968
+		worklib.uvm_pkg:sv <0x66d4dc4f>
+			streams:  23, words: 30665
+		worklib.uvm_pkg:sv <0x3b5d44fe>
+			streams:   8, words:  4212
+		worklib.uvm_pkg:sv <0x3fad6af2>
+			streams:  21, words: 18133
+		worklib.uvm_pkg:sv <0x5e692070>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x156324e8>
+			streams:  44, words: 37532
+		worklib.uvm_pkg:sv <0x45f02253>
+			streams:  22, words: 15604
+		worklib.uvm_pkg:sv <0x675cceb3>
+			streams:  23, words: 43520
+		worklib.uvm_pkg:sv <0x560d3e3f>
+			streams:  23, words: 33522
+		worklib.uvm_pkg:sv <0x4dd447f1>
+			streams:  23, words: 22421
+		worklib.uvm_pkg:sv <0x5a1c6e95>
+			streams:  23, words: 33522
+		worklib.uvm_pkg:sv <0x5dd7d5ef>
+			streams:  23, words: 28100
+		worklib.uvm_pkg:sv <0x5624f0fc>
+			streams:  23, words: 21917
+		worklib.uvm_pkg:sv <0x1b91847b>
+			streams:  30, words: 25535
+		worklib.uvm_pkg:sv <0x00ee1237>
+			streams: 258, words: 311401
+		worklib.yapp_pkg:sv <0x0d165f46>
+			streams:  25, words: 71199
+		worklib.top:sv <0x524dfdef>
+			streams:   1, words:   652
+		worklib.yapp_pkg:sv <0x1e9044e2>
+			streams:   0, words:     0
+		worklib.cdns_uvm_pkg:sv <0x2a988026>
+			streams: 128, words: 240678
+		worklib.cdns_uvmapi:svp <0x6917bc41>
+			streams:  27, words: 31790
+		worklib.cdns_assert2uvm_pkg:sv <0x7020843f>
+			streams:   3, words:  2239
+		worklib.uvm_pkg:sv <0x6c80be4c>
+			streams: 3940, words: 6515398
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 14280   10405
+		Named events:                  4      12
+		Initial blocks:              316     166
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       210     324
+		SV Class specializations:    400     400
+	Writing initial simulation snapshot: worklib.top:sv
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/xcelium/files/xmsimrc
+xcelium> source /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.11-a001)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                          Type                     Size  Value     
+-----------------------------------------------------------------------
+uvm_test_top                  base_test                -     @2657     
+  router                      router_tb                -     @2733     
+    yapp                      yapp_env                 -     @2777     
+      agent                   yapp_tx_agent            -     @2809     
+        driver                yapp_tx_driver           -     @3465     
+          rsp_port            uvm_analysis_port        -     @3616     
+            recording_detail  integral                 32    'd1       
+          seq_item_port       uvm_seq_item_pull_port   -     @3567     
+            recording_detail  integral                 32    'd1       
+          recording_detail    integral                 32    'd1       
+        monitor               yapp_tx_monitor          -     @2844     
+          recording_detail    integral                 32    'd1       
+        sequencer             yapp_tx_sequencer        -     @2839     
+          rsp_export          uvm_analysis_export      -     @2936     
+            recording_detail  integral                 32    'd1       
+          seq_item_export     uvm_seq_item_pull_imp    -     @3486     
+            recording_detail  integral                 32    'd1       
+          recording_detail    integral                 32    'd1       
+          arbitration_queue   array                    0     -         
+          lock_queue          array                    0     -         
+          num_last_reqs       integral                 32    'd1       
+          num_last_rsps       integral                 32    'd1       
+        is_active             uvm_active_passive_enum  1     UVM_ACTIVE
+        recording_detail      integral                 32    'd1       
+      recording_detail        integral                 32    'd1       
+-----------------------------------------------------------------------
+
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+SDI/Verilog Transaction Recording Facility Version 20.11-a001
+UVM_INFO ../sv/yapp_tx_monitor.sv(9) @ 0: uvm_test_top.router.yapp.agent.monitor [yapp_tx_monitor] Inside the monitor
+UVM_INFO ../sv/yapp_tx_seqs.sv(81) @ 0: uvm_test_top.router.yapp.agent.sequencer@@yapp_5_packets [yapp_5_packets] Executing yapp_5_packets sequence
+UVM_INFO ../sv/yapp_tx_driver.sv(17) @ 0: uvm_test_top.router.yapp.agent.driver [yapp_tx_driver] Packet is 
+-----------------------------------------------------------------------------------------------------------
+Name                           Type           Size  Value                                                  
+-----------------------------------------------------------------------------------------------------------
+req                            yapp_packet    -     @3724                                                  
+  addr                         integral       2     'h1                                                    
+  length                       integral       6     'h17                                                   
+  payload                      da(integral)   23    -                                                      
+    [0]                        integral       8     'hf4                                                   
+    [1]                        integral       8     'hb                                                    
+    [2]                        integral       8     'h21                                                   
+    [3]                        integral       8     'ha8                                                   
+    [4]                        integral       8     'h86                                                   
+    ...                        ...            ...   ...                                                    
+    [18]                       integral       8     'he0                                                   
+    [19]                       integral       8     'hb5                                                   
+    [20]                       integral       8     'he9                                                   
+    [21]                       integral       8     'haf                                                   
+    [22]                       integral       8     'h3e                                                   
+  parity                       integral       8     'b110101                                               
+  parity_type                  parity_type_e  1     GOOD_PARITY                                            
+  packet_delay                 integral       32    'd13                                                   
+  begin_time                   time           64    0                                                      
+  depth                        int            32    'd2                                                    
+  parent sequence (name)       string         14    yapp_5_packets                                         
+  parent sequence (full name)  string         55    uvm_test_top.router.yapp.agent.sequencer.yapp_5_packets
+  sequencer                    string         40    uvm_test_top.router.yapp.agent.sequencer               
+-----------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/yapp_tx_driver.sv(17) @ 10: uvm_test_top.router.yapp.agent.driver [yapp_tx_driver] Packet is 
+-----------------------------------------------------------------------------------------------------------
+Name                           Type           Size  Value                                                  
+-----------------------------------------------------------------------------------------------------------
+req                            yapp_packet    -     @3848                                                  
+  addr                         integral       2     'h2                                                    
+  length                       integral       6     'h14                                                   
+  payload                      da(integral)   20    -                                                      
+    [0]                        integral       8     'hff                                                   
+    [1]                        integral       8     'h52                                                   
+    [2]                        integral       8     'hd8                                                   
+    [3]                        integral       8     'h2d                                                   
+    [4]                        integral       8     'hb5                                                   
+    ...                        ...            ...   ...                                                    
+    [15]                       integral       8     'hc3                                                   
+    [16]                       integral       8     'had                                                   
+    [17]                       integral       8     'h6f                                                   
+    [18]                       integral       8     'h4f                                                   
+    [19]                       integral       8     'hb                                                    
+  parity                       integral       8     'b1010101                                              
+  parity_type                  parity_type_e  1     GOOD_PARITY                                            
+  packet_delay                 integral       32    'd16                                                   
+  begin_time                   time           64    10                                                     
+  depth                        int            32    'd2                                                    
+  parent sequence (name)       string         14    yapp_5_packets                                         
+  parent sequence (full name)  string         55    uvm_test_top.router.yapp.agent.sequencer.yapp_5_packets
+  sequencer                    string         40    uvm_test_top.router.yapp.agent.sequencer               
+-----------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/yapp_tx_driver.sv(17) @ 20: uvm_test_top.router.yapp.agent.driver [yapp_tx_driver] Packet is 
+-----------------------------------------------------------------------------------------------------------
+Name                           Type           Size  Value                                                  
+-----------------------------------------------------------------------------------------------------------
+req                            yapp_packet    -     @3859                                                  
+  addr                         integral       2     'h2                                                    
+  length                       integral       6     'h12                                                   
+  payload                      da(integral)   18    -                                                      
+    [0]                        integral       8     'ha                                                    
+    [1]                        integral       8     'h6f                                                   
+    [2]                        integral       8     'h7                                                    
+    [3]                        integral       8     'h3                                                    
+    [4]                        integral       8     'had                                                   
+    ...                        ...            ...   ...                                                    
+    [13]                       integral       8     'h82                                                   
+    [14]                       integral       8     'hc1                                                   
+    [15]                       integral       8     'h3b                                                   
+    [16]                       integral       8     'hed                                                   
+    [17]                       integral       8     'hc1                                                   
+  parity                       integral       8     'b100100                                               
+  parity_type                  parity_type_e  1     GOOD_PARITY                                            
+  packet_delay                 integral       32    'd5                                                    
+  begin_time                   time           64    20                                                     
+  depth                        int            32    'd2                                                    
+  parent sequence (name)       string         14    yapp_5_packets                                         
+  parent sequence (full name)  string         55    uvm_test_top.router.yapp.agent.sequencer.yapp_5_packets
+  sequencer                    string         40    uvm_test_top.router.yapp.agent.sequencer               
+-----------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/yapp_tx_driver.sv(17) @ 30: uvm_test_top.router.yapp.agent.driver [yapp_tx_driver] Packet is 
+-----------------------------------------------------------------------------------------------------------
+Name                           Type           Size  Value                                                  
+-----------------------------------------------------------------------------------------------------------
+req                            yapp_packet    -     @3684                                                  
+  addr                         integral       2     'h0                                                    
+  length                       integral       6     'h2f                                                   
+  payload                      da(integral)   47    -                                                      
+    [0]                        integral       8     'he4                                                   
+    [1]                        integral       8     'hc4                                                   
+    [2]                        integral       8     'h15                                                   
+    [3]                        integral       8     'h48                                                   
+    [4]                        integral       8     'h2b                                                   
+    ...                        ...            ...   ...                                                    
+    [42]                       integral       8     'h3e                                                   
+    [43]                       integral       8     'hf5                                                   
+    [44]                       integral       8     'hc6                                                   
+    [45]                       integral       8     'ha4                                                   
+    [46]                       integral       8     'h29                                                   
+  parity                       integral       8     'b10011001                                             
+  parity_type                  parity_type_e  1     GOOD_PARITY                                            
+  packet_delay                 integral       32    'd16                                                   
+  begin_time                   time           64    30                                                     
+  depth                        int            32    'd2                                                    
+  parent sequence (name)       string         14    yapp_5_packets                                         
+  parent sequence (full name)  string         55    uvm_test_top.router.yapp.agent.sequencer.yapp_5_packets
+  sequencer                    string         40    uvm_test_top.router.yapp.agent.sequencer               
+-----------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/yapp_tx_driver.sv(17) @ 40: uvm_test_top.router.yapp.agent.driver [yapp_tx_driver] Packet is 
+-----------------------------------------------------------------------------------------------------------
+Name                           Type           Size  Value                                                  
+-----------------------------------------------------------------------------------------------------------
+req                            yapp_packet    -     @3815                                                  
+  addr                         integral       2     'h0                                                    
+  length                       integral       6     'h3                                                    
+  payload                      da(integral)   3     -                                                      
+    [0]                        integral       8     'hbe                                                   
+    [1]                        integral       8     'hf0                                                   
+    [2]                        integral       8     'h9b                                                   
+  parity                       integral       8     'b11011001                                             
+  parity_type                  parity_type_e  1     GOOD_PARITY                                            
+  packet_delay                 integral       32    'd14                                                   
+  begin_time                   time           64    40                                                     
+  depth                        int            32    'd2                                                    
+  parent sequence (name)       string         14    yapp_5_packets                                         
+  parent sequence (full name)  string         55    uvm_test_top.router.yapp.agent.sequencer.yapp_5_packets
+  sequencer                    string         40    uvm_test_top.router.yapp.agent.sequencer               
+-----------------------------------------------------------------------------------------------------------
+
+UVM_INFO /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 50: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   10
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[yapp_5_packets]     1
+[yapp_tx_driver]     5
+[yapp_tx_monitor]     1
+Simulation complete via $finish(1) at time 50 NS + 49
+/pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	20.11-a001: Exiting on May 27, 2022 at 11:55:34 MST  (total: 01:32:18)

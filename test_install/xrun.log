@@ -1,0 +1,176 @@
+xrun(64): 20.11-a001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.11-a001: Started on May 24, 2022 at 14:05:35 MST
+xrun
+	-f run.f
+		-64
+		-uvmhome /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d
+		test.sv
+	-licqueue
+	-noievlic
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d
+file: test.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uvm_pkg:sv <0x79e8320d>
+			streams:   6, words:  3460
+		worklib.uvm_pkg:sv <0x0c1a1bea>
+			streams:   6, words:  3120
+		worklib.uvm_pkg:sv <0x4bc0429d>
+			streams:   5, words:  2530
+		worklib.uvm_pkg:sv <0x656cd840>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x59695f66>
+			streams:   8, words:  2774
+		worklib.uvm_pkg:sv <0x1140a937>
+			streams:  21, words: 49969
+		worklib.uvm_pkg:sv <0x0ebe6cc7>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x561f72cb>
+			streams:   7, words:  3064
+		worklib.uvm_pkg:sv <0x07cc2be1>
+			streams:   7, words:  3064
+		worklib.uvm_pkg:sv <0x666b5e65>
+			streams:   8, words:  4079
+		worklib.uvm_pkg:sv <0x44828e8f>
+			streams:  24, words: 19795
+		worklib.uvm_pkg:sv <0x00c771a7>
+			streams:  24, words: 18809
+		worklib.uvm_pkg:sv <0x0c3d629d>
+			streams:  20, words: 18289
+		worklib.uvm_pkg:sv <0x75d48727>
+			streams:  11, words:  4048
+		worklib.uvm_pkg:sv <0x6792b9ba>
+			streams:  23, words: 30419
+		worklib.uvm_pkg:sv <0x016dad2c>
+			streams:   7, words:  2431
+		worklib.uvm_pkg:sv <0x379d3f89>
+			streams:  12, words: 14984
+		worklib.uvm_pkg:sv <0x192c63e0>
+			streams:  23, words: 23531
+		worklib.uvm_pkg:sv <0x73882d57>
+			streams:  22, words: 50123
+		worklib.uvm_pkg:sv <0x03785cf4>
+			streams:  25, words: 31420
+		worklib.uvm_pkg:sv <0x1d3a63d2>
+			streams:  24, words: 45729
+		worklib.uvm_pkg:sv <0x2bcaa93a>
+			streams:  25, words: 34203
+		worklib.uvm_pkg:sv <0x29f14193>
+			streams:  23, words: 51285
+		worklib.uvm_pkg:sv <0x01254591>
+			streams:  25, words: 36281
+		worklib.uvm_pkg:sv <0x21ffa892>
+			streams:  23, words: 56904
+		worklib.uvm_pkg:sv <0x750f72a9>
+			streams:  25, words: 40813
+		worklib.uvm_pkg:sv <0x62d30c0b>
+			streams:  23, words: 50021
+		worklib.uvm_pkg:sv <0x70b6b358>
+			streams:  23, words: 52999
+		worklib.uvm_pkg:sv <0x69f31144>
+			streams:  25, words: 33487
+		worklib.uvm_pkg:sv <0x0422d086>
+			streams:  23, words: 49429
+		worklib.uvm_pkg:sv <0x0215f0f5>
+			streams:  25, words: 74663
+		worklib.uvm_pkg:sv <0x7d204275>
+			streams:  53, words: 71563
+		worklib.cdns_uvm_pkg:sv <0x4dd5190e>
+			streams:  26, words: 33776
+		worklib.cdns_uvm_pkg:sv <0x348c96b0>
+			streams:   8, words:  3879
+		worklib.cdns_uvm_pkg:sv <0x029d4e70>
+			streams:  10, words:  8596
+		worklib.uvm_pkg:sv <0x18181eb1>
+			streams:  20, words: 12563
+		worklib.uvm_pkg:sv <0x5be76834>
+			streams:   7, words:  3064
+		worklib.top:sv <0x0205f58a>
+			streams:   1, words:   782
+		worklib.cdns_uvm_pkg:sv <0x0b51b62d>
+			streams: 128, words: 214650
+		worklib.cdns_uvmapi:svp <0x2b722ef1>
+			streams:  27, words: 30379
+		worklib.cdns_assert2uvm_pkg:sv <0x3edfa7df>
+			streams:   3, words:  2148
+		worklib.uvm_pkg:sv <0x3d88c821>
+			streams: 3935, words: 6277559
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              4       4
+		Registers:                 12786   10030
+		Named events:                  4      12
+		Initial blocks:              252     146
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       190     304
+		SV Class specializations:    339     339
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/xcelium/files/xmsimrc
+xcelium> source /pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.11-a001)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mytest...
+UVM_INFO test.sv(27) @ 0: uvm_test_top [mytest] UVM TEST INSTALL PASSED!
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    2
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[mytest]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/pkg/cadence-xcelium-/20.11.001/i686-linux/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.11-a001: Exiting on May 24, 2022 at 14:06:05 MST  (total: 00:00:30)

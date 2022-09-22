@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-f
+run.f
++UVM_TESTNAME=set_config_test
+-licqueue
+-noievlic
